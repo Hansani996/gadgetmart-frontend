@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(assets/assets/fonts/Gilroy-SemiBold.woff2) format("opentype");
+}
+
+
+* {
+  margin: 0;
+  font-family: Gilroy-SemiBold!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header .icon-shopping-cart::before, .icon-wishlist-2::before,
+.icon-user-2::before{
+  color: #797979;
+}
+
+figure{
+  box-shadow: none!important;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary.focus {
+  border-color: #d5032f;
+  background-color: #d5032f;
+  color: #fff!important;
+  box-shadow: none;
+}
+
+.main-nav{
+  background-color: #d5032f;
+}
+
+.header .sticky-header.fixed {
+  background-color: #d5032f;
+}
+
+.main-nav .menu>li:first-child a {
+  color: white!important;
+}
+
+.product-default{
+  height: 95%;
+}
